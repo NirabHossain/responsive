@@ -2,3 +2,52 @@ header a{
     color: black;
     font-size: small;
 }
+.card-img-top {
+    height: 80%;
+    padding: 20px;
+    scale: .8;
+    object-fit: contain;
+    background-color: rgba(211, 211, 211, 0.24);
+    border-radius: 10px;
+}
+button{
+    padding: 5px;
+}
+button img{
+    width: 15px;
+}
+.card-footer{
+    justify-content: space-between;
+    align-items: baseline;
+    border: 0ch;
+    background-color: white;
+}
+.card{
+    border: 0ch;
+    box-shadow: 1px 1px 1px 1px  whitesmoke;
+}
+.para{
+    background: rgb(247, 247, 247);
+}
+.last{    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:30px 18px;
+    /* place-items: center; */
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+.article4{
+    grid-row: 1/ 4;
+    grid-column: 2;
+}
+.article4 img{
+    width: 100%;
+}
+.last article{
+    justify-content: baseline;
+    align-items: center;
+}
+article div{
+    padding-left: 30px;
+}
